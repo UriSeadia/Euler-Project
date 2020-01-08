@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2dde5af-0c3b-4911-a0e9-b76cc740c17d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/027_quadratic_primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/027_quadratic_primes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="427" y="170" width="1200" height="800" key="DiffContextDialog" timestamp="1578492515754">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="427" y="170" width="1200" height="800" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1578492515754" />
     <state x="507" y="215" width="1022" height="737" key="SettingsEditor" timestamp="1578421394444">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>

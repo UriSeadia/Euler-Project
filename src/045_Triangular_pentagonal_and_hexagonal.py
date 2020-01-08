@@ -49,4 +49,7 @@ def main():
     print('Seconds: ' + str(end - start))
 
 
-main()
+if __name__ == '__main__':
+    main()
+else:
+    print('__name__ is', __name__)

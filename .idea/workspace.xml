@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2dde5af-0c3b-4911-a0e9-b76cc740c17d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/001_multiples_of_3_and_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/001_multiples_of_3_and_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002_even_fibunacci_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/002_even_fibunacci_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003_largest_prime_factor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/003_largest_prime_factor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/004_largest_palindrome_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/004_largest_palindrome_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005_smallest_multiples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/005_smallest_multiples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006_sum_square_difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/006_sum_square_difference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007_10001_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/007_10001_prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008_largest_product_in_a_series.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/008_largest_product_in_a_series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009_special_pythagorean_triplet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/009_special_pythagorean_triplet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_summation_of_primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/010_summation_of_primes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/011_largest_product_in_a_grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/011_largest_product_in_a_grid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/012_highly_divisible_triangular_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/012_highly_divisible_triangular_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/013_large_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/013_large_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/014_longest_Collatz_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/014_longest_Collatz_sequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015_lattice_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/015_lattice_paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/016_power_digit_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/016_power_digit_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/017_number_letter_counts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/017_number_letter_counts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/018_maximum_path_sum_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/018_maximum_path_sum_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019_counting_sundays.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/019_counting_sundays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020_factorial_digit_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/020_factorial_digit_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/021_amicable_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/021_amicable_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/022_names_scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/022_names_scores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/023_non_abundant_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/023_non_abundant_sums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024_lexicographic_permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/024_lexicographic_permutations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/025_1000_digit_fibonacci_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/025_1000_digit_fibonacci_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/026_reciprocal_cycles.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/026_reciprocal_cycles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/027_quadratic_primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/027_quadratic_primes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028_number_spiral_diagonals.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/028_number_spiral_diagonals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/029_distinct_powers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/029_distinct_powers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_digit_fifth_powers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/030_digit_fifth_powers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031_coin_sums.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/031_coin_sums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/032_pandigital_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/032_pandigital_products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/033_digit_cancelling_fractions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/033_digit_cancelling_fractions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034_digit_factorials.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/034_digit_factorials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/035_circular_primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/035_circular_primes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/036_double_base_palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/036_double_base_palindromes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037_truncatable_primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/037_truncatable_primes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/038_pandigital_multiples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/038_pandigital_multiples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/039_integer_right_triangles.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/039_integer_right_triangles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/040_champernownes_constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/040_champernownes_constant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_pandigital_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/041_pandigital_prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042_coded_triangle_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/042_coded_triangle_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043_substring_divisibility.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/043_substring_divisibility.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/044_pentagon_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/044_pentagon_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/045_Triangular_pentagonal_and_hexagonal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/045_Triangular_pentagonal_and_hexagonal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/046_Goldbachs_other_conjecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/046_Goldbachs_other_conjecture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/027_quadratic_primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/027_quadratic_primes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

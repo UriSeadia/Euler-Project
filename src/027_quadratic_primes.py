@@ -16,9 +16,7 @@
 # Find the product of the coefficients, a and b,
 # for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n = 0.
 
-
-def get_product(a, b):
-    return a * b
+import time
 
 
 def get_absolute_value(number):
@@ -58,31 +56,38 @@ def get_result(a_max, b_max):
     n = 0
     max_consecutive_primes = 0
     max_product = 0
-    count = 0
 
     while a <= a_max:
-
         while b <= b_max:
+            if is_prime(b):
+                quadratic_expression_result = get_quadratic_expression_result(a, b, n)
 
-            quadratic_expression_result = get_quadratic_expression_result(a, b, n)
-
-            if is_prime(quadratic_expression_result):
-                count += 1
-                n += 1
-            else:
-                if count > max_consecutive_primes:
-                    max_consecutive_primes = count
-                    max_product = get_product(a, b)
-                    # print(a, b, max_consecutive_primes)
-                    print('a: ', a, '| b: ', b - 1, '| n: ', n, '| count: ', count)
-                    count = 0
+                if is_prime(quadratic_expression_result):
+                    n += 1
+                else:
+                    if n > max_consecutive_primes:
+                        max_consecutive_primes = n
+                        max_product = a * b
                     n = 0
+                    b += 1
+            else:
                 b += 1
         b = 0
         a += 1
 
-    print(max_product)
     return max_product
 
 
-get_result(999, 1000)
+def main():
+    start = time.time()
+
+    print('result:', get_result(999, 1000))
+
+    end = time.time()
+    print('Seconds: ' + str(end - start))
+
+
+if __name__ == '__main__':
+    main()
+else:
+    print('__name__ is', __name__)

@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2dde5af-0c3b-4911-a0e9-b76cc740c17d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/044_pentagon_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/044_pentagon_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/045_Triangular_pentagonal_and_hexagonal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/045_Triangular_pentagonal_and_hexagonal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/046_Goldbachs_other_conjecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/046_Goldbachs_other_conjecture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/047_Distinct_primes_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/047_Distinct_primes_factors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/048_Self_powers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/048_Self_powers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/049_Prime_permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/049_Prime_permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/050_Consecutive_prime_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/050_Consecutive_prime_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_functions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_functions/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -7,36 +7,10 @@
 # Which prime, below 1000000, can be written as the sum of the most consecutive primes?
 
 import time
+from common_functions import is_prime, get_primes_list
 
 
-def is_prime(number: int) -> bool:
-    if number <= 1:
-        return False
-
-    if number <= 3:
-        return True
-
-    if number % 2 == 0 or number % 3 == 0:
-        return False
-
-    i = 5
-    while i * i <= number:
-        if (number % i == 0) or (number % (i + 2) == 0):
-            return False
-        i = i + 6
-
-    return True
-
-
-def get_primes_list(from_number: int, to_number: int) -> list:
-    list_of_primes = []
-    for i in range(from_number, to_number + 1):
-        if is_prime(i):
-            list_of_primes.append(i)
-    return list_of_primes
-
-
-def longest_prime_sum(limit):
+def consecutive_primes_sum(limit: int) -> int:
     prime_list = get_primes_list(2, limit)
     total = 0
 
@@ -57,7 +31,8 @@ def longest_prime_sum(limit):
 def main():
     start = time.time()
 
-    print('result:', longest_prime_sum(1000000))
+    limit = 1000000
+    print('result:', consecutive_primes_sum(limit))
 
     end = time.time()
     print('Seconds: ' + str(end - start))

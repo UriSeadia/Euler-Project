@@ -6,18 +6,22 @@
 import time
 
 
-def solution():
+def self_powers(last_num: int) -> str:
     result = 0
-    for i in range(1, 1001):
+
+    for i in range(1, last_num + 1):
         result += i ** i
+
     str_result = str(result)
-    return str_result[len(str_result) - 10:len(str_result)]
+
+    return str_result[len(str_result) - 10: len(str_result)]
 
 
 def main():
     start = time.time()
 
-    print('result:', solution())
+    last_num = 1000
+    print('result:', self_powers(last_num))
 
     end = time.time()
     print('Seconds: ' + str(end - start))

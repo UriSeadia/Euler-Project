@@ -13,22 +13,27 @@
 import time
 
 
-def number_of_distinct_prime_factors(num):
+def number_of_distinct_prime_factors(num: int) -> int:
     prime_factors = set()
+
     while num % 2 == 0:
         prime_factors.add(2)
         num /= 2
+
     for i in range(3, int(num ** 0.5) + 1, 2):
         while num % i == 0:
             prime_factors.add(i)
             num /= i
+
     if num > 1:
         prime_factors.add(num)
+
     return len(prime_factors)
 
 
-def solution():
+def distinct_primes_factors() -> int:
     num = 1
+
     while True:
         if number_of_distinct_prime_factors(num) == 4:
             if number_of_distinct_prime_factors(num + 3) == 4:
@@ -48,7 +53,7 @@ def solution():
 def main():
     start = time.time()
 
-    print('result:', solution())
+    print('result:', distinct_primes_factors())
 
     end = time.time()
     print('Seconds: ' + str(end - start))
@@ -58,47 +63,3 @@ if __name__ == '__main__':
     main()
 else:
     print('__name__ is', __name__)
-
-
-# def is_prime(number: int) -> bool:
-#     if number <= 1:
-#         return False
-#
-#     if number <= 3:
-#         return True
-#
-#     if number % 2 == 0 or number % 3 == 0:
-#         return False
-#
-#     i = 5
-#     while i * i <= number:
-#         if (number % i == 0) or (number % (i + 2) == 0):
-#             return False
-#         i = i + 6
-#
-#     return True
-#
-#
-# def count_4_primes(num, primes):
-#     count = 0
-#     i = 0
-#     while count < 4 and i < len(primes):
-#         if num % primes[i] == 0:
-#             count += 1
-#         i += 1
-#     return count == 4
-#
-#
-# def solution():
-#     first_num = 644
-#     primes = sorted(set(i for i in range(1, 10000) if is_prime(i)))
-#
-#     while True:
-#         num = first_num
-#
-#         while count_4_primes(num, primes):
-#             num += 1
-#
-#         if num - first_num > 3:
-#             return first_num
-#         first_num += 1

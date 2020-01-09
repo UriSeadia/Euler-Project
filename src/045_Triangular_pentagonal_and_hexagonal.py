@@ -8,32 +8,14 @@
 # Find the next triangle number that is also pentagonal and hexagonal.
 
 import time
+from common_functions import is_pentagonal, is_triangle, is_hexagonal
 
 
-def is_pentagonal(num: int) -> bool:
-    p = (((24 * num + 1) ** 0.5) + 1) / 6
-    return p.is_integer()
-
-
-def is_triangle(num: int) -> bool:
-    t = (((8 * num + 1) ** 0.5) - 1) / 2
-    return t.is_integer()
-
-
-def is_hexagonal(num: int) -> bool:
-    h = (((8 * num + 1) ** 0.5) + 1) / 4
-    return h.is_integer()
-
-
-def get_next_hexagonal(num: int) -> int:
-    return num * (2 * num - 1)
-
-
-def solution() -> int:
-    i = 144
+def find_triangular_pentagonal_and_hexagonal(start_hex_index: int) -> int:
+    i = start_hex_index
 
     while True:
-        num = get_next_hexagonal(i)
+        num = i * (2 * i - 1)   # get next hexagonal
 
         if is_hexagonal(num) and is_pentagonal(num) and is_triangle(num):
             return num
@@ -43,7 +25,8 @@ def solution() -> int:
 def main():
     start = time.time()
 
-    print('result:', solution())
+    start_hex_index = 144
+    print('result:', find_triangular_pentagonal_and_hexagonal(start_hex_index))
 
     end = time.time()
     print('Seconds: ' + str(end - start))

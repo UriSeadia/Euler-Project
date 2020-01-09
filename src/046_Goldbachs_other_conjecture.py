@@ -12,28 +12,10 @@
 # What is the smallest odd composite that cannot be written as the sum of a prime and twice a square?
 
 import time
+from common_functions import is_prime
 
 
-def is_prime(number: int) -> bool:
-    if number <= 1:
-        return False
-
-    if number <= 3:
-        return True
-
-    if number % 2 == 0 or number % 3 == 0:
-        return False
-
-    i = 5
-    while i * i <= number:
-        if (number % i == 0) or (number % (i + 2) == 0):
-            return False
-        i = i + 6
-
-    return True
-
-
-def solution():
+def goldbachs_other_conjecture() -> int:
     primes = [2]
     squares = [2]
     num_to_square = 1
@@ -77,7 +59,7 @@ def solution():
 def main():
     start = time.time()
 
-    print('result:', solution())
+    print('result:', goldbachs_other_conjecture())
 
     end = time.time()
     print('Seconds: ' + str(end - start))

@@ -10,37 +10,37 @@
 # what is the value of D?
 
 import time
+from common_functions import is_pentagonal
 
 
-def is_pentagonal(num: int) -> bool:
-    p = (((24 * num + 1) ** 0.5) + 1) / 6
-    return p.is_integer()
-
-
-def set_method():
-    c, k = 2, 1
+def pentagon_numbers() -> int:
+    n = 2
+    pk = 1
     pentagonals: set = {1}
 
     while True:
-        for p in pentagonals:
-            if k - p in pentagonals and is_pentagonal(k + p):
-                return k - p
+        for pj in pentagonals:
+            if pk - pj in pentagonals and is_pentagonal(pk + pj):
+                return pk - pj
 
-        pentagonals.add(k)
-        k += 3 * c - 2
-        c += 1
+        pentagonals.add(pk)
+        pk += 3 * n - 2
+        n += 1
 
 
 def main():
     start = time.time()
 
-    print('result:', set_method())
+    print('result:', pentagon_numbers())
 
     end = time.time()
     print('Seconds: ' + str(end - start))
 
 
-main()
+if __name__ == '__main__':
+    main()
+else:
+    print('__name__ is', __name__)
 
 
 # def get_list_of_pentagonal_numbers(length: int):
